@@ -1,0 +1,17 @@
+body { background-image: url(../images/fondo.jpg); }
+#bkg_shade { position: absolute; width: 100%; z-index: -1; }
+
+#header { background-image: url(../images/header.png); height: 130px; overflow: hidden; text-align: center; }
+#header .fireLine { background: url("../images/fire.png") no-repeat scroll center -35px transparent; background-color: black; margin-top: 25px; }
+.fireLine { height: 75px; }
+#fire { width: 650px; position: absolute; }
+#colimma { margin: 8px 350px 0 0; height: 60px; }
+#header .menu { width:100%; height: 30px; background: url(../images/header_menu_bkg.jpg) repeat-x; }
+#header .menu ul { padding-top: 6px; }
+#header .menu ul li { display: inline; margin: 0 50px; font-weight: bold; color: black; }
+#header .menu ul li a { color: silver; font-weight: bold; text-decoration: none; }
+
+#main_container { width: 950px; margin: 0 auto; }
+
+#header .menu ul.buttonsMenu > li:hover { background-color: gray; padding: 5px 15px; margin: 0 35px; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; cursor: pointer; }
+

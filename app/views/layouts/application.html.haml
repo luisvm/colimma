@@ -1,0 +1,17 @@
+!!! XHTML 1.0 Transitional
+%html{html_attrs}
+%head
+  %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=utf-8"}/
+  =stylesheet_link_tag '/stylesheets/blueprint/screen.css', :media=>'screen, projection'
+  =stylesheet_link_tag '/stylesheets/blueprint/print.css', :media=>'print'
+  =stylesheet_link_tag '/stylesheets/style.css', :media=>'screen'
+  =stylesheet_link_tag '/stylesheets/sexylightbox.css', :media=>'screen'
+  =stylesheet_link_tag '/stylesheets/jquery-ui/jquery-ui-1.8.2.custom.css', :media=>'screen'
+  /[if lt IE 8]<link rel="stylesheet" href="stylesheets/blueprint/ie.css" type="text/css" media="screen, projection" />
+%body
+  = image_tag "shade.png", :width => '100%', :id => 'bkg_shade'
+  = render :partial => "header"
+  #main_container
+    =yield
+    test
+

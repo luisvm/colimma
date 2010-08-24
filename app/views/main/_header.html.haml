@@ -1,0 +1,14 @@
+#header
+  .fireLine
+    = image_tag "yo_l_colima.png", :id => 'colimma'
+  .menu
+    %ul.buttonsMenu
+      %li
+        = link_to_unless_current "Inicio", inicio_path
+      %li
+        = link_to_unless_current "Información", informacion_path
+      %li
+        = link_to_unless_current "Áreas", areas_path
+      %li
+        = link_to_unless_current "Contacto", contacto_path
+

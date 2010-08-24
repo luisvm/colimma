@@ -1,0 +1,85 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 0.9
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* ie.css */
+body {text-align:center;}
+.container {text-align:left;}
+* html .column, * html div.span-1, * html div.span-2, * html div.span-3, * html div.span-4, * html div.span-5, * html div.span-6, * html div.span-7, * html div.span-8, * html div.span-9, * html div.span-10, * html div.span-11, * html div.span-12, * html div.span-13, * html div.span-14, * html div.span-15, * html div.span-16, * html div.span-17, * html div.span-18, * html div.span-19, * html div.span-20, * html div.span-21, * html div.span-22, * html div.span-23, * html div.span-24 {display:inline;overflow-x:hidden;}
+* html legend {margin:0px -8px 16px 0;padding:0;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+html>body p code {*white-space:normal;}
+hr {margin:-8px auto 11px;}
+img {-ms-interpolation-mode:bicubic;}
+.clearfix, .container {display:inline-block;}
+* html .clearfix, * html .container {height:1%;}
+fieldset {padding-top:0;}
+textarea {overflow:auto;}
+input.text, input.title, textarea {background-color:#fff;border:1px solid #bbb;}
+input.text:focus, input.title:focus {border-color:#666;}
+input.text, input.title, textarea {margin:0.5em 0;}
+select {margin:9px 0}
+input.checkbox, input.radio {position:relative;top:.25em;}
+form.inline div, form.inline p {vertical-align:middle;}
+form.inline label {position:relative;top:-0.25em;}
+form.inline input.checkbox, form.inline input.radio, form.inline input.button, form.inline button {margin:0.5em 0;}
+button, input.button {position:relative;top:0.25em;}
+
+#menuNav{margin-top: -6px;}
+/*
+.slicedBtn li a.selectA { background-position: 0 -34px;}
+.slicedBtn li a.selectA:hover, .slicedBtn li a.selectA.selected { background-position: 0 5px;}
+.slicedBtn li a.selectB { background-position: -120px 5px;}
+.slicedBtn li a.selectB:hover, .slicedBtn li a.selectB.selected { background-position:-120px -34px;}
+*/
+.slicedBtn li a.selectB { background-position: -120px 5px;}
+.slicedBtn li a.selectB:hover, .slicedBtn li a.selectB.selected { background-position:-120px -34px;}
+.slicedBtn a.selectA, .slicedBtn a.selectB{padding-bottom:14px; padding-top:7px;}
+
+
+#seo_performance_summary .span-4{border-right:none;}
+.dateRange{float:left; margin-top:11px;}
+.slicedBtn li{padding-top:1px;}
+.slicedBtn{padding-bottom:2px; padding-top:8px;}
+/*.slicedBtn span{margin-top:10px;}*/
+.topSection .multipleBtn div{padding-top:0; height:38px;}
+.topSection .multipleBtn div a{float:left;}
+.repBuiltRepBottomSec label{float:left; padding:8px 5px 0 0}
+.repBuiltRepBottomSec input[type=text], .repBuiltRepBottomSec select{float:left;}
+#custom_report_options input[type=checkbox]{position:static;}
+
+ul.quickLinks{ margin-top:-20px !important; }
+.notificationBox .text3{position:relative; top:-19px;}
+.notificationBox .closeNotification{margin-top:-140px;}
+.addBtn{ margin-top:10px; height:20px;}
+.addBtn a, .generalBtn a{ padding-top:0 !important; }
+.addBtn a img{margin-bottom:-6px;}
+.generalBtn, .generalBtn:hover { padding-bottom:20px;}
+.generalBtn{ height:0px !important; }
+#email_compare_performance_summary{height:auto;}
+.generalBtn_bkg a{padding-top:0;}
+.generalBtn_bkg{padding-bottom:20px; height:auto;}
+.genericTable{ margin: auto; padding-bottom:20px;}
+.addBar{margin-top:-11px;}
+#displayAdsAddCampaign{height:21px; margin-top:9px; padding-top:3px;}
+#menuNav {line-height:27px; padding-top:6px;}
+#menuNav li, #menuNav li.selected, #menuNav li:hover{background-position: 0 22px; margin-left:4px; padding: 12px 0 22px;}
+#menuNav li a, #menuNav li:hover a, #menuNav li.selected a, #menuNav li.selected:hover a{background-position: 0 10px;}
+#menuNav li a span, #menuNav li:hover a span{background-position: right 0 !important; margin-right:-4px;}
+#menuNav li.selected:hover a span, #menuNav li.selected:hover a span{background-position: right 0 !important; margin-right:-4px;}
+
+table.roundedBox { table-layout: fixed; }
+
+.dashboardSummary .barGroupContainer .barContainer { float:none; }
+.smallVerticalMultiBar { height: 320px; }
+.smallVerticalMultiBar .roundedBoxContainer { height:228px; }
