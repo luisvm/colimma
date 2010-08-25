@@ -13,5 +13,3 @@ body { background-image: url(../images/fondo.jpg); }
 
 #main_container { width: 950px; margin: 0 auto; }
 
-#header .menu ul.buttonsMenu > li:hover { background-color: gray; padding: 5px 15px; margin: 0 35px; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; cursor: pointer; }
-
