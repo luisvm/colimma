@@ -1,0 +1,9 @@
+#footer
+  .menuContainer
+    = concat_links :link_names => ['Inicio', 'Información', 'Areas', 'Arte y Cultura', 'Académico', 'Deportes Extremos', ' Relax', 'Contacto'], :links => [inicio_path, informacion_path, areas_path, arte_y_cultura_path, academico_path, deportes_extremos_path, relax_path, contacto_path]
+  .visitsContainer
+    Usted es el Visitante No.
+    .clear.visitsCounter
+      = image_tag "heart.png"
+      %span 01
+

@@ -8,6 +8,10 @@ ActionController::Routing::Routes.draw do |map|
   map.informacion 'informacion', :controller => :main, :action => :informacion
   map.areas 'areas', :controller => :main, :action => :areas
   map.contacto 'contacto', :controller => :main, :action => :contacto
+  map.arte_y_cultura 'arte_y_cultura', :controller => :main, :action => :arte_y_cultura
+  map.academico 'academico', :controller => :main, :action => :academico
+  map.deportes_extremos 'deportes_extremos', :controller => :main, :action => :deportes_extremos
+  map.relax 'relax', :controller => :main, :action => :relax
 
   # Sample of named route:
   #   map.purchase 'products/:id/purchase', :controller => 'catalog', :action => 'purchase'
