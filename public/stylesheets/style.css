@@ -14,13 +14,13 @@ body { background: url(../images/fondo.jpg); }
 #main_container { width: 950px; margin: 0 auto 50px auto; padding: 30px; -moz-border-radius:0 0 15px 15px; border-radius: 0 0 15px 15px; -webkit-border-radius: 0 0 15px 15px; background-color:silver; -webkit-border-radius: 0 0 15px 15px; border-radius: 0 0 15px 15px; min-height: 600px; }
 
 #footer { width: 950px; margin: 0 auto; }
-#footer .menuContainer { width: 40%; text-align: center; background-color: black; margin: 0 100px 50px; padding: 10px; -moz-border-radius: 10px; float: left; }
+#footer .menuContainer { width: 40%; text-align: center; background-color: black; margin: 0 100px 50px; padding: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-border-radius:10px; float: left; }
 #footer .menuContainer a { padding: 0 10px; }
 #footer .menuContainer,
 #footer .menuContainer a:active,
 #footer .menuContainer a:link,
 #footer .menuContainer a:visited { color: silver; text-decoration: none; font-weight: bold; }
 
-#footer .visitsContainer { width: 25%; font-weight: bold; color: silver; text-align: center; float: left; padding: 5px 0 7px; background-color: black; -moz-border-radius: 10px; border-radius: 10px; -webkit-border-radius:15px; }
+#footer .visitsContainer { width: 25%; font-weight: bold; color: silver; text-align: center; float: left; padding: 5px 0 7px; background-color: black; -moz-border-radius: 10px; border-radius: 10px; -webkit-border-radius:10px; }
 #footer .visitsContainer .visitsCounter { height: 20px; margin-top: 5px; }
 
